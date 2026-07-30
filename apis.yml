@@ -1,8 +1,25 @@
 aid: mach-industries
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mach-industries.png
 name: Mach Industries
-description: 'Mach Industries is a company surfaced as a portfolio company of ribbit-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: defense. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Mach Industries develops and manufactures asymmetric aerospace and defense
+  systems and components at scale, with a product portfolio that includes the Viper
+  vertical-takeoff attack drone, the Glide precision strike munition, the Stratos
+  high-altitude pseudo-satellite, the Pike long-range munition, the Dart counter-drone
+  kinetic interceptor, and energetics testing services. Surfaced as a portfolio company
+  of Ribbit Capital and added to the API Evangelist network. The company is a defense
+  hardware manufacturer and publishes no public developer or API surface as of this
+  enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/mach-industries/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Defense
+- Aerospace
+- Drones
+- Manufacturing
+- Munitions
+- Defense Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/mach-industries-domain-security.yml
 - type: Website
   url: https://www.machindustries.com
+- type: Blog
+  url: https://www.machindustries.com/newsroom
+- type: PrivacyPolicy
+  url: https://www.machindustries.com/privacy-policy
+- type: Support
+  url: mailto:meet@machindustries.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mach-industries
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
